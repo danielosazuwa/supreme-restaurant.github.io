@@ -228,13 +228,13 @@ button:hover {
     margin-left: 5rem;
   }
   .services {
-    margin-left: 3rem;
+    margin-left: 5rem;
   }
   .services h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .services h2 {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .contacts img {
     width: 45px;
@@ -265,7 +265,7 @@ button:hover {
     margin-left: -19rem;
   }
   .gallery {
-    margin-left: -1rem;
+    margin-left: 0.5rem;
   }
 }
 @media (max-width: 360px) {
