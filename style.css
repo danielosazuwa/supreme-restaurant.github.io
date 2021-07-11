@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  background: wheat;
+}
+
+.full-background {
+  background-image: url("/images/pexels-jonathan-borba-2983101.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 45rem;
+}
+#logo h1 {
+  background-color: red;
+  color: white;
+  padding: 20px;
+  padding-left: 50px;
+  width: 100%;
+  font-size: 3rem;
+  position: static;
+}
+nav {
+  display: flex;
+  margin-left: 5rem;
+  justify-content: space-between;
+}
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 1rem;
+  background: white;
+  font-weight: bold;
+  border-radius: 20%;
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+nav li:hover {
+  background: red;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+section {
+  height: 50rem;
+  display: flex;
+  justify-content: space-between;
+}
+.contacts img {
+  display: block;
+}
+.contacts {
+  position: sticky;
+  top: 30%;
+  margin-top: 5rem;
+}
+.services {
+  text-align: center;
+  color: white;
+  margin: 2rem 40rem 0rem 0rem;
+
+  padding: 1.5rem;
+}
+.services h1 {
+  text-shadow: 0.1rem 0.1rem;
+  font-size: 4rem;
+}
+.services h2 {
+  font-size: 1.8rem;
+}
+
+.gallery {
+  background: wheat;
+  margin-top: 1rem;
+}
+.writeup {
+  text-align: center;
+  font-size: 2.2rem;
+}
+.main-dish {
+  margin: 2rem 2rem 0rem 2rem;
+}
+.main-dish img {
+  height: 300px;
+  width: 400px;
+  margin-left: 2.5rem;
+  margin-bottom: 0rem;
+  margin-top: 2rem;
+}
+
+.smallchops {
+  margin: 2rem 2rem 0rem 2rem;
+}
+.smallchops img {
+  height: 300px;
+  width: 400px;
+  margin-left: 2.5rem;
+  margin-bottom: 0rem;
+  margin-top: 2rem;
+}
+
+.foodtrays {
+  margin: 2rem 2rem 0rem 2rem;
+}
+.foodtrays img {
+  height: 300px;
+  width: 400px;
+  margin-left: 2.5rem;
+  margin-bottom: 0rem;
+  margin-top: 2rem;
+}
+
+button {
+  border: none;
+  border-radius: 30%;
+  padding: 2rem;
+  background-color: teal;
+  font-weight: bold;
+  margin: 1.5rem 0rem 2rem 60rem;
+  transition-duration: 0.4s;
+}
+button a {
+  text-decoration: none;
+  color: white;
+}
+button:hover {
+  background: red;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer {
+  background: black;
+  height: 15rem;
+  color: white;
+}
+.footer-end {
+  margin-left: 5rem;
+}
+.footer-end h2 {
+  padding-top: 2rem;
+}
+.footer-end p {
+  font-size: 1.5rem;
+}
+.social-icons img {
+  width: 32px;
+  height: 32px;
+  padding: 0.3rem;
+}
+@media (max-width: 425px) {
+  #logo h1 {
+    text-align: center;
+  }
+
+  nav {
+    margin-left: 10rem;
+  }
+  .services {
+    margin-left: 5.5rem;
+  }
+  .services h1 {
+    font-size: 2.5rem;
+  }
+  .services h2 {
+    font-size: 1.2rem;
+  }
+  .contacts img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .main-dish img {
+    height: 100px;
+    width: 150px;
+    padding: 0.3;
+  }
+  .smallchops img {
+    height: 100px;
+    width: 150px;
+    padding: 0.3;
+  }
+  .foodtrays img {
+    height: 100px;
+    width: 150px;
+    padding: 0.3;
+  }
+
+  .writeup h1 {
+    font-size: 2rem;
+  }
+  .writeup p {
+    font-size: 1.5rem;
+  }
+
+  button {
+    margin-left: -23rem;
+    height: auto;
+    width: 12rem;
+    font-size: 1rem;
+    border-radius: 20%;
+    padding: 0.4rem;
+  }
+  .gallery {
+    background: wheat;
+  }
+}
