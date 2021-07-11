@@ -12,7 +12,7 @@ body {
 }
 
 .full-background {
-  background-image: url("/images/pexels-jonathan-borba-2983101.jpg");
+  background-image: url("./images/pexels-jonathan-borba-2983101.jpg");
   background-size: cover;
   background-position: center;
   height: 45rem;
