@@ -226,9 +226,11 @@ button:hover {
 
   nav {
     margin-left: 5rem;
+    margin-top: -1rem;
   }
   .services {
     margin-left: 5rem;
+    margin-top: -2rem;
   }
   .services h1 {
     font-size: 2rem;
