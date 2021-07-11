@@ -219,3 +219,57 @@ button:hover {
     background: wheat;
   }
 }
+@media (max-width: 375px) {
+  #logo h1 {
+    margin-left: -3rem;
+  }
+
+  nav {
+    margin-left: 5rem;
+  }
+  .services {
+    margin-left: 3rem;
+  }
+  .services h1 {
+    font-size: 2.5rem;
+  }
+  .services h2 {
+    font-size: 1.1rem;
+  }
+  .contacts img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .main-dish img {
+    height: 80px;
+    width: 120px;
+  }
+  .smallchops img {
+    height: 80px;
+    width: 120px;
+  }
+  .foodtrays img {
+    height: 80px;
+    width: 120px;
+  }
+
+  .writeup h1 {
+    font-size: 2rem;
+  }
+  .writeup p {
+    font-size: 1.5rem;
+  }
+
+  button {
+    margin-left: -19rem;
+  }
+  .gallery {
+    margin-left: -1rem;
+  }
+}
+@media (max-width: 360px) {
+  .gallery {
+    margin-left: -1.5rem;
+  }
+}
